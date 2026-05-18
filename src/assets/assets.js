@@ -14,6 +14,8 @@ import code_icon from './code_icon.png'
 import send_icon from './send_icon.png'
 import gemini_icon from './gemini_icon.png'
 import ShankGPT_icon from './ShankGPT_icon.png'
+import logout_icon from './logout_icon.png'
+import trash_icon from './trash_icon.png'
 
 export const assets = {
     history_icon,
@@ -31,5 +33,7 @@ export const assets = {
     code_icon,
     send_icon,
     gemini_icon,
-    ShankGPT_icon
+    ShankGPT_icon,
+    logout_icon,     // 🔥 added
+    trash_icon       // 🔥 added
 }
