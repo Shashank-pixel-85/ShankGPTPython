@@ -8,3 +8,4 @@ groq
 numpy
 email-validator
 PyJWT
+passlib[bcrypt]
