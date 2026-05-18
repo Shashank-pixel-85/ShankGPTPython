@@ -8,7 +8,7 @@
 
 html, body {
   height: 100%;
-  overflow: hidden;
+  background: #fafafa;
 }
 
 :root {
@@ -93,12 +93,9 @@ html, body {
 /* CHAT AREA */
 .chat-area {
   flex: 1;
-  margin-left: 260px;
-  padding-bottom: 200px;
+  padding-bottom: 120px;
   background: transparent;
   position: relative;
-  overflow-y: auto;
-  height: 100vh;
 }
 
 .chat-area.dark {
@@ -365,12 +362,9 @@ html, body {
 /* CHAT NEXT TO SIDEBAR */
 .chat-area {
   flex: 1;
+  padding-bottom: 120px;
   margin-left: 260px;
-  padding-bottom: 200px;
-  background: transparent;
-  position: relative;
   overflow-y: auto;
-  height: 100vh;
 }
 
 .sidebar.closed + .chat-area {
